@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    min-height: 100vh;
+    align-items:center;
+    justify-content: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 3rem;
+    text-align:center;
+    text-shadow: 1px 1px 2px rgb(145, 19, 145);float: none;
+    padding-right: 2rem;
+}
+#btn {
+    background-color: wheat;
+    color:black;
+    font-size: 1rem;
+    font-family: inherit;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#btn2 {
+    background-color:lightsalmon;
+    color:black;
+    font-size: 1rem;
+    font-family: inherit;
+    float: none;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin: 1rem;
+}
+
+#btn3 {
+    background-color:paleturquoise;
+    color:black;
+    font-size: 1rem;
+    font-family: inherit;
+    float: none;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+}
+
+#btn4 {
+    background-color:plum;
+    color:black;
+    font-size: 1rem;
+    font-family: inherit;
+    float: none;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#container {
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.toast {
+    background-color:lightgreen;
+    border-radius: 5px;
+    color:black;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.toast2 {
+    background-color:gold;
+    border-radius: 5px;
+    color: black;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.toast3 {
+    background-color:orangered;
+    border-radius: 5px;
+    color:white;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.toast4 {
+    background-color:rgb(128, 204, 240);
+    border-radius: 5px;
+    color:white;
+    padding: 1rem;
+    margin: 0.5rem;
+}
